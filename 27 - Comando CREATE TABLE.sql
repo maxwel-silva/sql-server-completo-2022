@@ -1,14 +1,5 @@
 USE AdventureWorks
 
--- Principais tipos de restrições que podem ser aplicadas
-
-NOT NULL - Não permite nulos
-UNIQUE - Força que todos os valores em uma coluna sejam diferentes
-PRIMARY KEY - Uma junção de NOT NULL e UNIQUE
-FOREIGN KEY - Indentifica únicamente uma linha em outra tabela
-CHECK - Força uma condição especifica em uma coluna
-DEFAULT - Força um valor padrão quando nenhum valor é passado
-
 --------------------------------------------------------------------------------------------
 
 CREATE TABLE Canal (

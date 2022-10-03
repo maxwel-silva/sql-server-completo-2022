@@ -1,8 +1,10 @@
 USE AdventureWorks
 
--- Mostre todos os produtos cadastrados que tem preço de venda acima da média
+/*
 
---------------------------------------------------------------------------------------------
+Mostre todos os produtos cadastrados que tem preço de venda acima da média
+
+*/
 
 SELECT * FROM Production.Product
 
@@ -25,7 +27,11 @@ ORDER BY ListPrice DESC
 
 --------------------------------------------------------------------------------------------
 
--- Todos os endereços que estão no estado de 'Alberta'
+/*
+
+Todos os endereços que estão no estado de 'Alberta'
+
+*/
 
 SELECT * FROM Person.Address
 WHERE StateProvinceID IN (SELECT StateProvinceID FROM Person.StateProvince

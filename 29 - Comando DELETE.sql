@@ -5,4 +5,4 @@ SELECT * FROM AdventureWorks.HumanResources.JobCandidate
 --------------------------------------------------------------------------------------------
 
 DELETE FROM AdventureWorks.HumanResources.JobCandidate
-WHERE JobCandidateID = 13
+WHERE JobCandidateID IN (13, 12)

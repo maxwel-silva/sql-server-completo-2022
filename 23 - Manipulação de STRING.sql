@@ -1,6 +1,6 @@
 /*
 
--- Manipulação de STRING
+Manipulação de STRING
 
 */
 

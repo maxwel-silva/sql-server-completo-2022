@@ -8,11 +8,11 @@ https://learn.microsoft.com/pt-br/sql/t-sql/functions/datepart-transact-sql?view
 
 USE AdventureWorks
 
-SELECT DATEPART(MONTH, OrderDate) AS 'Mês',  AVG(TotalDue) AS 'Média' 
+SELECT DATEPART(MONTH, OrderDate) AS 'MÃªs',  AVG(TotalDue) AS 'MÃ©dia' 
 FROM Sales.SalesOrderHeader
 
 GROUP BY DATEPART(MONTH, OrderDate)
-ORDER BY Mês ASC
+ORDER BY MÃªs ASC
 
 --------------------------------------------------------------------------------------------
 
@@ -20,4 +20,3 @@ SELECT DepartmentID AS 'ID', Name AS 'Nome', DATEPART(MONTH, ModifiedDate) AS 'M
 
 FROM HumanResources.Department
 
---------------------------------------------------------------------------------------------

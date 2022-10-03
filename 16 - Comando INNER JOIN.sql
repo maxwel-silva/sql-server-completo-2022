@@ -29,7 +29,7 @@ ORDER BY BA.BusinessEntityID DESC
 
 --------------------------------------------------------------------------------------------
 
-SELECT PA.AddressID AS 'CEP', PA.City AS 'Cidade', PS.StateProvinceID AS 'Província', PS.Name AS 'Nome'
+SELECT PA.AddressID AS 'CEP', PA.City AS 'Cidade', PS.StateProvinceID AS 'ProvÃ­ncia', PS.Name AS 'Nome'
 
 FROM Person.StateProvince PS INNER JOIN Person.Address PA
 ON PS.StateProvinceID = PA.StateProvinceID
@@ -38,4 +38,3 @@ WHERE PS.Name LIKE '%MA'
 
 ORDER BY PA.City ASC
 
---------------------------------------------------------------------------------------------

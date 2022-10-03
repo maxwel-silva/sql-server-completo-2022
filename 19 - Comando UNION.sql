@@ -25,3 +25,4 @@ UNION
 SELECT FirstName, Title, MiddleName
 FROM Person.Person
 WHERE MiddleName = 'A'
+

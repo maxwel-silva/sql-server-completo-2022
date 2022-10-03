@@ -1,6 +1,6 @@
 USE AdventureWorks
 
-SELECT TOP 20 AVG(ListPrice) AS 'Preço Médio'
+SELECT TOP 20 AVG(ListPrice) AS 'PreÃ§o MÃ©dio'
 
 FROM Production.Product
 
@@ -13,11 +13,11 @@ WHERE FirstName LIKE 'MAX%'
 
 --------------------------------------------------------------------------------------------
 
-SELECT Name AS 'Nome', Size AS 'Tamanho', ProductNumber AS 'Número'
+SELECT Name AS 'Nome', Size AS 'Tamanho', ProductNumber AS 'NÃºmero'
 FROM Production.Product
 
 WHERE Size <> 'NULL'
 
 ORDER BY Name ASC
 
---------------------------------------------------------------------------------------------
+

@@ -6,6 +6,6 @@ USE AdventureWorks
 
 DROP TABLE ErrorLog
 
--- DROP Informações
+-- DROP InformaÃ§Ãµes
 
 TRUNCATE TABLE	ErroLog

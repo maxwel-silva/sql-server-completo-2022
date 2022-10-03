@@ -5,7 +5,7 @@ FROM Person.Person
 
 --------------------------------------------------------------------------------------------
 
-SELECT Title AS Nome, COUNT(DISTINCT Title) AS Títulos
+SELECT Title AS Nome, COUNT(DISTINCT Title) AS TÃ­tulos
 FROM Person.Person
 
 GROUP BY Title
@@ -25,4 +25,3 @@ WHERE Size >=	'1'
 
 GROUP BY Name, Size
 
---------------------------------------------------------------------------------------------

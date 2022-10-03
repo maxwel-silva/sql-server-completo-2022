@@ -9,3 +9,4 @@ DROP TABLE ErrorLog
 -- DROP Informações
 
 TRUNCATE TABLE	ErroLog
+

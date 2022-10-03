@@ -2,7 +2,7 @@ USE AdventureWorks
 
 /*
 
-Mostre todos os produtos cadastrados que tem preÁo de venda acima da mÈdia
+Mostre todos os produtos cadastrados que tem pre√ßo de venda acima da m√©dia
 
 */
 
@@ -10,7 +10,7 @@ SELECT * FROM Production.Product
 
 --------------------------------------------------------------------------------------------
 
-SELECT Name AS 'Nome', ListPrice AS 'PreÁo'
+SELECT Name AS 'Nome', ListPrice AS 'Pre√ßo'
 FROM Production.Product
 
 WHERE ListPrice >= 428
@@ -18,7 +18,7 @@ ORDER BY ListPrice DESC
 
 --------------------------------------------------------------------------------------------
 
-SELECT Name AS 'Nome', ListPrice AS 'PreÁo' FROM Production.Product
+SELECT Name AS 'Nome', ListPrice AS 'Pre√ßo' FROM Production.Product
 
 WHERE ListPrice > (SELECT AVG(ListPrice) FROM Production.Product)
 
@@ -29,7 +29,7 @@ ORDER BY ListPrice DESC
 
 /*
 
-Todos os endereÁos que est„o no estado de 'Alberta'
+Todos os endere√ßos que est√£o no estado de 'Alberta'
 
 */
 
@@ -48,5 +48,3 @@ ON PA.StateProvinceID = PS.StateProvinceID
 
 WHERE PS.name LIKE 'ALB%'
 ORDER BY PA.AddressID ASC
-
---------------------------------------------------------------------------------------------

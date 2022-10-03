@@ -16,4 +16,3 @@ FROM Sales.SalesOrderDetail
 GROUP BY ProductID
 HAVING SUM(LineTotal) BETWEEN 162000 AND 500000
 
---------------------------------------------------------------------------------------------

@@ -4,7 +4,7 @@ SELECT * FROM Sales.SalesOrderDetail
 
 --------------------------------------------------------------------------------------------
 
-SELECT AVG(LineTotal) AS 'Média'
+SELECT AVG(LineTotal) AS 'MÃ©dia'
 FROM Sales.SalesOrderDetail
 
 --------------------------------------------------------------------------------------------
@@ -14,12 +14,12 @@ FROM Sales.SalesOrderDetail
 
 --------------------------------------------------------------------------------------------
 
-SELECT MIN(LineTotal) AS 'Mínimo'
+SELECT MIN(LineTotal) AS 'MÃ­nimo'
 FROM Sales.SalesOrderDetail
 
 --------------------------------------------------------------------------------------------
 
-SELECT MAX(LineTotal) AS 'Máximo'
+SELECT MAX(LineTotal) AS 'MÃ¡ximo'
 FROM Sales.SalesOrderDetail
 
 --------------------------------------------------------------------------------------------
@@ -29,5 +29,6 @@ FROM Sales.SalesOrderDetail
 
 --------------------------------------------------------------------------------------------
 
-SELECT SQRT(ROUND(LineTotal, 0)) AS 'Raíz Quadrada'
+SELECT SQRT(ROUND(LineTotal, 0)) AS 'RaÃ­z Quadrada'
 FROM Sales.SalesOrderDetail
+

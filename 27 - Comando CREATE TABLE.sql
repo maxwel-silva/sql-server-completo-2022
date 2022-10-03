@@ -23,3 +23,4 @@ Duracao INT NOT NULL,
 CanalId INT FOREIGN KEY REFERENCES Canal (CanalId)
 
 )
+

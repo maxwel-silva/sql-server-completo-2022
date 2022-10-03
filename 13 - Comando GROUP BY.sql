@@ -28,7 +28,7 @@ ORDER BY Contagem DESC
 
 --------------------------------------------------------------------------------------------
 
-SELECT Color AS Cor, AVG(ListPrice) AS Média
+SELECT Color AS Cor, AVG(ListPrice) AS MÃ©dia
 FROM Production.Product
 
 WHERE Color NOT IN ('NULL')
@@ -46,7 +46,7 @@ ORDER BY Quantidade DESC
 
 --------------------------------------------------------------------------------------------
 
-SELECT ProductID AS Produto, AVG(OrderQty) AS Média
+SELECT ProductID AS Produto, AVG(OrderQty) AS MÃ©dia
 FROM Sales.SalesOrderDetail
 
 GROUP BY ProductID, OrderQty
@@ -59,7 +59,4 @@ FROM Sales.SalesOrderDetail
 
 GROUP BY ProductID, LineTotal
 ORDER BY LineTotal DESC
-
---------------------------------------------------------------------------------------------
-
 

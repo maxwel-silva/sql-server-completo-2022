@@ -17,3 +17,5 @@ FROM Sales.SalesOrderDetail
 
 SELECT TOP(500) AVG(LineTotal) AS Média
 FROM Sales.SalesOrderDetail
+
+

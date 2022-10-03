@@ -1,13 +1,13 @@
 /*
 
-OPERADOR     -     DESCRIÇÃO
+OPERADOR     -     DESCRIÃ‡ÃƒO
 =				          IGUAL
 >						  MAIOR QUE	
 <						  MENOR QUE
 >=                      MAIOR QUE OU IGUAL
 <>                      MENOR QUE OU IGUAL
-AND                    OPERADOR LÓGICO E
-OR						  OPERADOR LÓGICO OU					
+AND                    OPERADOR LÃ“GICO E
+OR						  OPERADOR LÃ“GICO OU					
 
 */
 
@@ -54,4 +54,3 @@ SELECT * FROM HumanResources.Employee
 WHERE MaritalStatus = 'M'
 AND SalariedFlag = 1
 
---------------------------------------------------------------------------------------------

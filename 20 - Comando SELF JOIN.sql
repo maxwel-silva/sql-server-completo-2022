@@ -5,4 +5,3 @@ FROM HumanResources.Employee A, HumanResources.Employee B
 
 WHERE DATEPART(YEAR, A.HireDate) = DATEPART(YEAR, B.HireDate)
 
---------------------------------------------------------------------------------------------

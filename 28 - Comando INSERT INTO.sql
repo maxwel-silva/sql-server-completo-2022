@@ -11,3 +11,4 @@ WHERE JobCandidateID = 5
 UPDATE AdventureWorks.HumanResources.JobCandidate
 SET BusinessEntityID = 200
 WHERE JobCandidateID = 7
+

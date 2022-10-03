@@ -5,4 +5,3 @@ ON PP.BusinessEntityID = PC.BusinessEntityID
 
 WHERE PC.CreditCardID IS NULL
 
---------------------------------------------------------------------------------------------

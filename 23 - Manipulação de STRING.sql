@@ -1,6 +1,6 @@
 /*
 
-Manipulação de STRING
+ManipulaÃ§Ã£o de STRING
 
 */
 
@@ -34,4 +34,3 @@ FROM Person.Person
 SELECT ProductNumber, REPLACE(ProductNumber, '-', ' # ' )
 FROM Production.Product
 
---------------------------------------------------------------------------------------------

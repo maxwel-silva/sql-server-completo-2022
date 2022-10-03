@@ -19,4 +19,3 @@ WHERE FirstName LIKE '%OBER%'
 
 ORDER BY BusinessEntityID DESC
 
-\

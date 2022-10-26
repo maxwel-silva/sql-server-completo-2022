@@ -1,8 +1,8 @@
 /*
 
-=	   IGUAL
->	   MAIOR QUE	
-<	   MENOR QUE
+=	     IGUAL
+>	     MAIOR QUE	
+<	     MENOR QUE
 >=     MAIOR QUE OU IGUAL
 <>     MENOR QUE OU IGUAL
 AND    OPERADOR LÓGICO E
